@@ -1,8 +1,19 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+.header-nav {
+    @extend .container;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 39px;
+}
+.mobile-container {
+    display: flex;
+    width: 100%;
+}
+.header-nav-list {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    a {
+        color: $text-color;
+    }
 }

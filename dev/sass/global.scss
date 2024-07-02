@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    background-color: #282B38;
+    color: #ffffff;
+}
+.col-md-4 {
+    padding: 10px;
+}
+ul li,
+ol li {
+    list-style: none;
+}
+a {
+    color: #E58D35;
+    text-decoration: underline;
+}
+
+ol {
+    counter-reset: list;
+}
+
+ol li::before {
+    counter-increment: list;
+    content: counter(list) ".";
+    color: #89C249;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.color-item-1 {
+    background-color: #E58D35;
+}
+.color-item {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+.color-item-1 {
+    background-color: #E58D35;
+}
+.color-item-2 {
+    background-color: #89C249;
+}
+
+.color-item-3 {
+    background-color: #282B38;
+    border: 1px solid #fff;
+}
+
+.color-item-4 {
+    background-color: #363A4D;
+}
+
+::selection {
+    background-color: #89C249;
+}
+.col-md-4 {
+    padding: 10px;
+}
+.markup__ul-container ul li::before {
+    content: "";
+    background-color: #89C249;
+    display: inline-block;
+    margin-right: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;}
+    .markup__font-family-container ul li::before {
+        content: "";
+        background-color: #89C249;
+        display: inline-block;
+        margin-right: 12px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;}
+.h1{
+    font-size: 42px;
+}
+.h2 {
+    font-size: 36px;
+}
+.h3 {
+    font-size: 56px;
+}
+.h4 {
+    font-size: 28px;
+}
+.h5 {
+    font-size: 24px;
+}
+.h6 {
+    font-size: 18px;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    display: none;
+}
+
+[type="checkbox"] + label,
+[type="radio"] + label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #282B38;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+    margin-bottom: 6px;
+}
+
+[type="radio"] + label:before {
+    border-radius: 50%;
+}
+
+[type="checkbox"]:checked + label:before {
+  content: "";
+  background: url(../assets/img/icon-checked.svg) center no-repeat #fff;
+}
+
+[type="radio"]:checked + label:before {
+    content: "•";
+    background: #fff;
+    font-size: 40px;
+    line-height: 18px;
+    color: #282B38;
+    text-align: center;
+}
+[type=radio]:checked + label:after {
+    content: "";
+    font-size: 40px;
+    line-height: 23px;
+    height: 12px;
+    width: 12px;
+    background-color: #282B38;
+    text-align: center;
+    position:absolute;
+    left: 6px;
+    top: 6px;
+    border-radius: 50%;
+}
+[type="checkbox"] + label:hover::before,
+[type="radio"] + label:hover::before {
+  border: 1px solid #E58D35;
+}
+
+.markup__btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.btn {
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+    line-height: 146%;
+    border-radius: 90px;
+    padding: 13px 18px;
+    border: 1px solid #E58D35;
+  
+}
+.btn-secondary {
+    background-color: transparent;
+    padding: 13px 36px;
+}
+
+.btn-primary {
+background-color: #E58D35;
+}
+
+.btn-lg {
+padding: 19px 34px;
+font-size: 16px;
+}
+.btn-direction {
+margin: 0 -14px 0 47px;
+width: 27px;
+height: 27px;
+transition: 0.3s;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #89C249;
+    border-color: #89C249;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: #89C249;
+    border-color: #89C249;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    background-color: #89C249;
+    border-color: #89C249;
+}
+.btn-lg .icon {
+    margin: 0 -16px 0 50px;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+.btn:focus-visible,
+.btn:focus {
+    box-shadow: none;
+}
+.scroll {
+    overflow: auto;
+    scrollbar-color: #E58D35;
+    padding: 0px 15px 0px 0px;
+    margin-top: 10px;
+    height: 300px;
+}

@@ -1,6 +1,27 @@
 @font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('./assets/fonts/Gilroy-Regular.woff') format('woff');
+    font-family: 'ProximaNova';
+    src: url('/dev/assets/fonts/proxima-nova-light.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/dev/assets/fonts/proxima-nova-regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/dev/assets/fonts/proxima-nova-semibold.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/dev/assets/fonts/proxima-nova-bold.ttf') format('truetype');
     font-weight: normal; 
     font-style: normal;
     font-display: swap;
