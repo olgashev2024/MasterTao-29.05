@@ -1,9 +1,9 @@
 .header-nav {
     @extend .container;
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 39px;
+    padding: 25px 15px 39px 15px;
     position: relative;
+    max-width: 1170px;
 
     .btn {
         padding: 13px 21px;
@@ -21,5 +21,14 @@
     a {
         color: $text-color;
         text-decoration: none;
+    }
+}
+.btn-burger {
+    border: none;
+    background: url('assets/img/Vector.svg') center no-repeat;
+    padding: 19px;
+
+    &.open {
+        background: url('assets/img/Vector-close.svg') center no-repeat;
     }
 }

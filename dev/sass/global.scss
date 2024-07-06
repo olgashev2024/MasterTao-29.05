@@ -138,7 +138,7 @@ ol li::before {
 
 [type="checkbox"]:checked + label:before {
   content: "";
-  background: url(../assets/img/icon-checked.svg) center no-repeat #fff;
+  background: url(assets/img/icon-checked.svg) center no-repeat #fff;
 }
 
 [type="radio"]:checked + label:before {

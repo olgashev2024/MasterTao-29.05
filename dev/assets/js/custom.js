@@ -3,7 +3,9 @@ const mobileContainer = document.querySelector('.mobile-container');
  
 
   function showBurgerMenu() {
-    mobileContainer.classList.toggle('show')
+    mobileContainer.classList.toggle('show');
+    navigation.classList.toggle('show');
+  
   }
 
   burger.addEventListener('click', showBurgerMenu)
