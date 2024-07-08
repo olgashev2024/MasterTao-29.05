@@ -1,0 +1,25 @@
+.banner {
+    padding-bottom: 65px;
+    
+    &-title {
+        font-size: 56px;
+        line-height: 126%;
+        margin-bottom: 8px;
+        max-width: 410px;
+}
+&-description {
+font-size: 20px;
+line-height: 135%;
+margin-bottom: 37px;
+font-weight: 300;
+max-width: 320px;
+}
+}
+
+.swiper-slide {
+    .swiper-slide{
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    }
+}
