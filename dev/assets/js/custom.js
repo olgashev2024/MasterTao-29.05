@@ -11,6 +11,7 @@ const mobileContainer = document.querySelector('.mobile-container');
 
 
   const swiper = new Swiper('.swiper-info', {
+    spaceBetween: 40,
     loop:true,
     pagination: {
       el: '.swiper-pagination',

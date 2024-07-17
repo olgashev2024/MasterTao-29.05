@@ -41,7 +41,12 @@ ol li::before {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.container-xxl {
+    max-width: 1844px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 12px;
+}
 .color-item-1 {
     background-color: #E58D35;
 }
